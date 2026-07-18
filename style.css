@@ -1,0 +1,46 @@
+:root {
+    --accent01: #A32D2D;
+    --accent02: #791F1F;
+    --dark01: #2C2C2A;
+    --dark02: #5F5E5A;
+    --white01: #EDEDED;
+}
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    outline: 1px red solid;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--dark01);
+}
+
+.navBar {
+    background-color: var(--accent01);
+    width: 100%;
+    height: 75px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.navLeft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.navLogo {
+    height: 70%;
+}
+
+.navTitle {
+    margin-left: 0.25rem;
+    color: var(--white01);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
