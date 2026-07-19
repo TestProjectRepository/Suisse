@@ -77,10 +77,36 @@ body {
 
 .mainContent {
     text-align: center;
+    min-width: 60%;
 }
 
 .accountName {
     color: var(--white01);
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
+}
+
+.mainAction {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.mainButton {
+    padding: 0.5rem 1rem;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 600;
+    font-optical-sizing: auto;    
+    background-color: var(--accent02);
+    color: var(--white01);
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.mainButton:focus{
+    outline: 2px solid var(--accent02);
+    background-color: var(--white01);
+    color: var(--accent02)
+
 }
