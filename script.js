@@ -1,0 +1,1 @@
+document.getElementById("accountName").innerHTML = 'Bonjour, ____ _____ ';
