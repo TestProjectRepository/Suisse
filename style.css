@@ -65,6 +65,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1.25px solid var(--dark02);
 }
 
 .accountImage {
