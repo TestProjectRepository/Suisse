@@ -15,7 +15,7 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    min-height: 100dvh;
     background-color: var(--dark01);
 }
 
@@ -68,8 +68,8 @@ body {
 }
 
 .accountImage {
-    height: 50%;
     width: 50%;
+    height: auto;
 }
 
 .mainContent {
@@ -78,6 +78,6 @@ body {
 
 .accountName {
     color: var(--white01);
-    font-family: "Roboto", monospace;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600;
 }
